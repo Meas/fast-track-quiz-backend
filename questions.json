@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "text": "What is 5x5",
+        "answers": [
+            {
+                "id": 1,
+                "text": "25"
+            },
+            {
+                "id": 2,
+                "text": "17"
+            },
+            {
+                "id": 3,
+                "text": "42"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "What can you not overclock?",
+        "answers": [
+            {
+                "id": 4,
+                "text": "CPU"
+            },
+            {
+                "id": 5,
+                "text": "Monitor"
+            },
+            {
+                "id": 6,
+                "text": "Nothing is safe from overclocking!"
+            }
+        ]
+    }
+]
