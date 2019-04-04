@@ -22,15 +22,15 @@
         "text": "What can you not overclock?",
         "answers": [
             {
-                "id": 4,
+                "id": 1,
                 "text": "CPU"
             },
             {
-                "id": 5,
+                "id": 2,
                 "text": "Monitor"
             },
             {
-                "id": 6,
+                "id": 3,
                 "text": "Nothing is safe from overclocking!"
             }
         ]

@@ -1,10 +1,8 @@
-[
-    {
-        "questionId": 1,
-        "correctAnswer": 1 
+{
+    "1": {
+        "answerId": 1
     },
-    {
-        "questionId": 2,
-        "correctAnswer": 6
+    "2": {
+        "answerId": 3
     }
-]
+}
