@@ -1,8 +1,10 @@
-{
-    "1": {
+[
+    {
+        "questionId": 1,
         "answerId": 1
     },
-    "2": {
+    {
+        "questionId": 2,
         "answerId": 3
     }
-}
+]

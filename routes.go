@@ -8,7 +8,9 @@ import (
 //InitRoutes - Initialize app routes
 func InitRoutes() *mux.Router {
 	router := mux.NewRouter()
-	router.HandleFunc("/questions", controllers.GetQuestions)
+
+	router.HandleFunc("/questions", controllers.GetQuestions).Methods("GET")
+	router.HandleFunc("/answers", controllers.ProcessAnswers).Methods("POST")
 
 	return router
 }

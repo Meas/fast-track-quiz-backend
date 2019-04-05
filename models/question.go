@@ -1,9 +1,7 @@
 package models
 
 import (
-	"encoding/json"
-	"io/ioutil"
-	"os"
+	"github.com/meas/fast-track-quiz-backend/helpers"
 )
 
 type Question struct {
@@ -16,13 +14,6 @@ type Question struct {
 
 func GetQuestions() []Question {
 	var questions = make([]Question, 0)
-	loadJSON(&questions)
+	helpers.LoadJSON("questions.json", &questions)
 	return questions
-}
-
-func loadJSON(questions *[]Question) {
-	jsonFile, _ := os.Open("questions.json")
-	byteValue, _ := ioutil.ReadAll(jsonFile)
-	json.Unmarshal([]byte(byteValue), &questions)
-	defer jsonFile.Close()
 }
