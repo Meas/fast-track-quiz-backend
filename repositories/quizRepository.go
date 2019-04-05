@@ -1,6 +1,7 @@
 package repositories
 
 import (
+	"github.com/meas/fast-track-quiz-backend/helpers"
 	"github.com/meas/fast-track-quiz-backend/models"
 )
 
@@ -49,5 +50,5 @@ func getComparisons(userPoints int, allSubmissions *[]models.Score) (float32, fl
 			}
 		}
 	}
-	return betterThan / numberOfSubmissions, betterOrEqualThen / numberOfSubmissions
+	return helpers.RoundUp(betterThan / numberOfSubmissions), helpers.RoundUp(betterOrEqualThen / numberOfSubmissions)
 }

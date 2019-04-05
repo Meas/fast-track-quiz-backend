@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "text": "What is 5x5",
+        "text": "What is 5x5?",
         "answers": [
             {
                 "id": 1,
@@ -32,6 +32,60 @@
             {
                 "id": 3,
                 "text": "Nothing is safe from overclocking!"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "What is Link's (Zelda) preffered weapon?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Master Axe"
+            },
+            {
+                "id": 2,
+                "text": "Master Sword"
+            },
+            {
+                "id": 3,
+                "text": "Master Spear"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "How does one become a Witcher?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Bitten by other Witcher"
+            },
+            {
+                "id": 2,
+                "text": "Magic ritual"
+            },
+            {
+                "id": 3,
+                "text": "Training and mutations"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Which of these is a popular meme from World of Warcraft?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "LEEROY JENKINS!"
+            },
+            {
+                "id": 2,
+                "text": "Long cat is long"
+            },
+            {
+                "id": 3,
+                "text": "I don't even"
             }
         ]
     }

@@ -6,5 +6,17 @@
     {
         "questionId": 2,
         "answerId": 3
+    },
+    {
+        "questionId": 3,
+        "answerId": 2
+    },
+    {
+        "questionId": 4,
+        "answerId": 3
+    },
+    {
+        "questionId": 5,
+        "answerId": 1
     }
 ]
