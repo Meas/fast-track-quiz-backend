@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// LoadJSON - loads a json file into an object
 func LoadJSON(fileName string, questions interface{}) {
 	jsonFile, _ := os.Open(fileName)
 	byteValue, _ := ioutil.ReadAll(jsonFile)
