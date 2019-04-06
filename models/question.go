@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/meas/fast-track-quiz-backend/helpers"
+	"github.com/Meas/fast-track-quiz-backend/helpers"
 )
 
 // Question - structure for a single question

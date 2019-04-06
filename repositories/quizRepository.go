@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"github.com/meas/fast-track-quiz-backend/helpers"
-	"github.com/meas/fast-track-quiz-backend/models"
+	"github.com/Meas/fast-track-quiz-backend/helpers"
+	"github.com/Meas/fast-track-quiz-backend/models"
 )
 
 // GetQuizResult calculates the result of the user session, TODO: check if session is repeated and throw error

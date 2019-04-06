@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/meas/fast-track-quiz-backend/helpers"
-	"github.com/meas/fast-track-quiz-backend/models"
-	"github.com/meas/fast-track-quiz-backend/repositories"
+	"github.com/Meas/fast-track-quiz-backend/helpers"
+	"github.com/Meas/fast-track-quiz-backend/models"
+	"github.com/Meas/fast-track-quiz-backend/repositories"
 )
 
 // So everything is in memory

@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/meas/fast-track-quiz-backend/controllers"
+	"github.com/Meas/fast-track-quiz-backend/controllers"
 )
 
 //InitRoutes - Initialize app routes
